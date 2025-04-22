@@ -5,3 +5,7 @@ def check_codeword(codeword):
         return "Close, but nope."
     else:
         return "WRONG!"
+
+print (check_codeword("helle"))
+print (check_codeword("mouse"))
+print (check_codeword("something"))

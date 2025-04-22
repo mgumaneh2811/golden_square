@@ -9,3 +9,7 @@ class Counter:
 
     def report(self):
         return f"Counted to {self.count} so far."
+
+first_counter = Counter()
+first_counter.add(29)
+print(first_counter.report())

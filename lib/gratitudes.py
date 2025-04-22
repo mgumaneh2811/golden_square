@@ -9,3 +9,8 @@ class Gratitudes:
         formatted = "Be grateful for: "
         formatted += ", ".join(self.gratitudes)
         return formatted
+
+first_gratitude = Gratitudes()
+first_gratitude.add("health")
+first_gratitude.add("and youth")
+print(first_gratitude.format())

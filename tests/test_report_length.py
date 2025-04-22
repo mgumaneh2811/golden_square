@@ -1,4 +1,4 @@
-from lib.report_length import*
-def test_report_length():
-    result = len("tests")
-    assert result == 5
+from lib.report_length import *
+def test_report_correct_length():
+    result = report_length("hello")
+    assert result == "This string was 5 characters long."
